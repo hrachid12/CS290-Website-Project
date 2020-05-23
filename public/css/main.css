@@ -1,0 +1,113 @@
+/* Styling for the navbar */
+
+body {
+	background-color: white;
+	background-color: #FFE7C9;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+img {
+	width: 101%;
+}
+
+ul {
+	list-style-type: none;
+	width: 100%;
+	min-width: 900px;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(114, 114, 114);
+}
+  
+li {
+	float: left;
+	margin: auto;
+}
+
+li a {
+	display: block;
+	padding: 14px 16px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #333333;
+	color: rgb(255, 145, 0);
+}
+
+.active {
+	background-color: rgb(255, 145, 0);
+}
+
+
+/* Styling for the Banner */
+
+#banner {
+	width: 100%;
+	background-color: #333333;
+	height: 175px;
+}
+
+#title {
+	width: 1300px;
+	margin: auto;
+}
+
+
+#titleLink {
+	width: 495px;
+	background-color: #333333;
+}
+
+.logo {
+	font-size: 60px;
+	padding-top: 20px;
+	font-family: 'Bitter', serif;
+}
+
+.logo:hover {
+	color: rgb(255, 145, 0);
+	font-family: 'Dancing Script', cursive;
+	font-size: 77px;
+}
+
+#carrot {
+	color: rgb(255, 145, 0);
+	font-family: 'Dancing Script', cursive;
+	font-size: 77px;
+}
+
+#banner a {
+	text-decoration: none;
+	color: white;
+}
+
+#sub-title {
+	width: 1300px;
+	margin: auto;
+
+}
+#sub-logo {
+	position: relative;
+	font-family: "Dancing Script", cursive;
+	color: white;
+	font-size: 20px;
+	text-align: end;
+	top: 30px;
+}
+
+
+/* Body Styling */
+
+#webBody {
+	width: 1300px;
+	margin:auto;
+}
