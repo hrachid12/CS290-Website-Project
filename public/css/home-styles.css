@@ -2,7 +2,7 @@
 
 .carousel-container {
 	position: relative;
-	width: 1300px;
+	width: 100%;
 	margin: auto;
 	overflow: hidden;
 }
@@ -35,4 +35,29 @@
 	font-size: 30px;
 	opacity: 0.8;
 	cursor: pointer;
+}
+
+#home-content {
+	margin-top: 20px;
+	padding: 20px;
+}
+
+#home-body {
+	border: 3px solid #333333;
+	border-top: 0px;
+	background-color: white;
+}
+
+#home-header {
+	color: black;
+	font-family: 'Dancing script', cursive;
+	font-size: 55px;
+	position: relative;
+	left: 100px;
+}
+
+.home-para {
+	font-family: 'Bitter', serif;
+	margin-top: 30px;
+	font-size: 25px;
 }

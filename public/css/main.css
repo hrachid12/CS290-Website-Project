@@ -1,8 +1,10 @@
 /* Styling for the navbar */
 
 body {
-	background-color: white;
-	background-color: #FFE7C9;
+	background-color: #ffe7c9;
+	background-image: url("/images/bone2.png");
+	background-repeat: round space;
+	background-size: 100px;
 }
 
 * {
@@ -22,9 +24,9 @@ ul {
 	margin: auto;
 	padding: 0;
 	overflow: hidden;
-	background-color: rgb(114, 114, 114);
+	background-color: black;
 }
-  
+
 li {
 	float: left;
 	margin: auto;
@@ -47,7 +49,6 @@ li a:hover {
 	background-color: rgb(255, 145, 0);
 }
 
-
 /* Styling for the Banner */
 
 #banner {
@@ -60,7 +61,6 @@ li a:hover {
 	width: 1300px;
 	margin: auto;
 }
-
 
 #titleLink {
 	width: 495px;
@@ -93,21 +93,19 @@ li a:hover {
 #sub-title {
 	width: 1300px;
 	margin: auto;
-
 }
 #sub-logo {
 	position: relative;
 	font-family: "Dancing Script", cursive;
-	color: red;
+	color: white;
 	font-size: 20px;
 	text-align: end;
 	top: 30px;
 }
 
-
 /* Body Styling */
 
 #webBody {
 	width: 1300px;
-	margin:auto;
+	margin: auto;
 }
