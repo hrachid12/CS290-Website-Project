@@ -30,6 +30,7 @@ ul {
 li {
 	float: left;
 	margin: auto;
+	font-family: 'Bitter', serif;
 }
 
 li a {
@@ -58,6 +59,7 @@ li a:hover {
 }
 
 #title {
+	position: relative;
 	width: 1300px;
 	margin: auto;
 }
@@ -101,6 +103,17 @@ li a:hover {
 	font-size: 20px;
 	text-align: end;
 	top: 30px;
+}
+
+#logoPic {
+	position: absolute;
+	top: 10px;
+	right: 35px;
+}
+
+#luckyPic {
+	width: 160px;
+	border-radius: 50%;
 }
 
 /* Body Styling */

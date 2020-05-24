@@ -21,28 +21,6 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
 	res.render('about');
 });
-
-app.get('/blog', (req, res) => {
-	res.render('blog');
-});
-
-app.get('/contact', (req, res) => {
-	res.render('form');
-});
-
-app.post('/contact/signup', (req, res) => {
-	let postRes = [];
-
-	for (var i in req.body) {
-		postRes.push({ name: i, value: req.body[i] });
-	}
-
-	var context = {};
-	context.postResponse = postRes;
-
-	res.render('submitted-form', context);
-});
-
 app.use((req, res) => {
 	res.status(404);
 	res.render('404');
@@ -56,5 +34,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(port, function() {
-	console.log('Connection established to port ' + port + '. Ctrl-C to terminate...');
+	console.log('Connection established on port ' + port + '. Ctrl-C to terminate...');
 });

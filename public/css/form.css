@@ -1,0 +1,53 @@
+#form-page-body {
+	border: 10px solid #333333;
+	border-top: 0;
+	background-color: white;
+	height: 750px;
+}
+
+#signup-form {
+	width: 50%;
+	max-width: 500px;
+	margin: auto;
+	padding-top: 200px;
+}
+
+input[type="text"] {
+	width: 100px;
+}
+
+input {
+	margin: 1px;
+}
+
+select {
+	margin: 1px;
+}
+
+label {
+	padding-left: 10px;
+	font-family: 'Bitter', serif;
+}
+
+legend {
+	margin: 0 auto;
+	font-family: 'Bitter', serif;
+}
+
+fieldset {
+	padding-bottom: 20px;
+}
+
+/* SCROLL BOX STYLING */
+
+#scrollbox {
+	overflow: scroll;
+	width: 250px;
+	height: 100px;
+	margin: auto;
+	font-family: 'Bitter', serif;
+}
+
+.hidden {
+	display: none;
+}

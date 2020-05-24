@@ -46,9 +46,9 @@ hr {
 /* BODY STYLING */
 
 #home-body {
-	border: 3px solid #333333;
-	border-top: 0px;
 	background-color: white;
+	border: 10px solid #333333;
+	border-top: 0;
 }
 
 #home-header {
@@ -59,9 +59,10 @@ hr {
 }
 
 #home-content {
-	padding: 30px;
+	padding: 10px;
 	text-align: center;
 	min-height: 500px;
+	/* border: 10px solid #333333; */
 }
 
 .home-para {
