@@ -1,8 +1,14 @@
 /* PAGE SPECIFIC STYLING */
+hr {
+	width: 95%;
+	margin: auto;
+	margin-top: 15px;
+}
 
+/* CAROUSEL STYLING */
 .carousel-container {
 	position: relative;
-	width: 1300px;
+	width: 100%;
 	margin: auto;
 	overflow: hidden;
 }
@@ -35,4 +41,57 @@
 	font-size: 30px;
 	opacity: 0.8;
 	cursor: pointer;
+}
+
+/* BODY STYLING */
+
+#home-body {
+	background-color: white;
+	border: 10px solid #333333;
+	border-top: 0;
+}
+
+#home-header {
+	font-family: 'Dancing script', cursive;
+	font-size: 65px;
+	position: relative;
+	color: rgb(255, 145, 0);
+}
+
+#home-content {
+	padding: 10px;
+	text-align: center;
+	min-height: 500px;
+	/* border: 10px solid #333333; */
+}
+
+.home-para {
+	font-family: 'Bitter', serif;
+	margin-top: 30px;
+	font-size: 25px;
+}
+
+.para-carrot {
+	font-family: 'Dancing script', cursive;
+	color: rgb(255, 145, 0);
+	font-size: 31px;
+}
+
+div a img {
+	width: 100px;
+	padding-top: 30px;
+}
+
+.insta {
+	width: 60px;
+	margin: auto;
+}
+
+/* SOURCE STYLES */
+
+#source {
+	text-decoration: none;
+	color: black;
+	font-family: 'Bitter', serif;
+	font-size: 10px;
 }

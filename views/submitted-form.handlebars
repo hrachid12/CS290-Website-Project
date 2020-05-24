@@ -1,0 +1,56 @@
+<head>
+    <link rel="stylesheet" href="/css/form.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <ul>
+            <li><a href="http://www.localhost:4825/" target="_self">Home</a></li>
+            <li><a href="http://www.localhost:4825/about" target="_self">About Me</a></li>
+            <li><a href="http://www.localhost:4825/blog" target="_self">Blog</a></li>
+            <li><a href="http://www.localhost:4825/contact" target="_self" class="active">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="form-page-body">
+
+        <div id="signup-form">
+            <form action="http://www.localhost:4825/contact/signup" method="POST" target="_self">
+                <fieldset>
+                    <legend>Sign up to receive email updates about The Lucky Carrot!</legend>
+                    <br>
+                    <label for="First Name">First Name:</label>
+                    <input type="text" id="First Name" name="First Name" placeholder="Bark" required>
+                    <br>
+                    <label for="Last Name">Last Name:</label>
+                    <input type="text" id="Last Name" name="Last Name" placeholder="Twain" required>
+                    <br>
+                    <label for="Email">Email:</label>
+                    <input type="email" id="Email" name="Email" placeholder="barktwain@woof.com" required>
+                    <br>
+                    <label for="Frequency">Update Frequency:</label>
+                    <select name="Frequency" id="freq">
+                            <option value="daily">Every Day! </option>
+                            <option value="weekly">Every Week!</option>
+                            <option value="monthly">Every Month!</option>
+                    </select>
+
+                    <input type="submit" name="Submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+        
+        <br>
+
+        <div id="scrollbox" class="">
+            <p>Thank you for signing up to receive pupdates! You submit the following:</p>
+            <br>
+            {{#each postResponse}}
+            <p>{{this.name}} : {{this.value}}</p>
+            <br>
+            {{/each}}
+            
+        </div>
+    </div>
+
+</body>
