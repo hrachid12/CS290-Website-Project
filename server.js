@@ -7,7 +7,8 @@ app.set('view engine', 'handlebars');
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-var port = process.env.PORT || 4825;
+// var port = process.env.PORT || 8080;
+var port = 5000;
 
 var path = require('path');
 app.use('/images', express.static(path.join(__dirname, 'public/images')));
