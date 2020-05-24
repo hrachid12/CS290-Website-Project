@@ -1,5 +1,11 @@
 /* PAGE SPECIFIC STYLING */
+hr {
+	width: 95%;
+	margin: auto;
+	margin-top: 15px;
+}
 
+/* CAROUSEL STYLING */
 .carousel-container {
 	position: relative;
 	width: 100%;
@@ -37,10 +43,7 @@
 	cursor: pointer;
 }
 
-#home-content {
-	margin-top: 20px;
-	padding: 20px;
-}
+/* BODY STYLING */
 
 #home-body {
 	border: 3px solid #333333;
@@ -49,15 +52,36 @@
 }
 
 #home-header {
-	color: black;
 	font-family: 'Dancing script', cursive;
-	font-size: 55px;
+	font-size: 65px;
 	position: relative;
-	left: 100px;
+	color: rgb(255, 145, 0);
+}
+
+#home-content {
+	padding: 30px;
+	text-align: center;
+	min-height: 500px;
 }
 
 .home-para {
 	font-family: 'Bitter', serif;
 	margin-top: 30px;
 	font-size: 25px;
+}
+
+.para-carrot {
+	font-family: 'Dancing script', cursive;
+	color: rgb(255, 145, 0);
+	font-size: 31px;
+}
+
+div a img {
+	width: 100px;
+	padding-top: 30px;
+}
+
+.insta {
+	width: 60px;
+	margin: auto;
 }

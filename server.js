@@ -21,6 +21,15 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
 	res.render('about');
 });
+
+app.get('/blog', (req, res) => {
+	res.render('blog');
+});
+
+app.get('contact', (req, res) => {
+	res.render('form');
+});
+
 app.use((req, res) => {
 	res.status(404);
 	res.render('404');
