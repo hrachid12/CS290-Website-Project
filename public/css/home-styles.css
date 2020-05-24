@@ -86,3 +86,12 @@ div a img {
 	width: 60px;
 	margin: auto;
 }
+
+/* SOURCE STYLES */
+
+#source {
+	text-decoration: none;
+	color: black;
+	font-family: 'Bitter', serif;
+	font-size: 10px;
+}
