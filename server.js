@@ -7,8 +7,7 @@ app.set('view engine', 'handlebars');
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-// var port = process.env.PORT || 8080;
-var port = 5000;
+var port = process.env.PORT || 4825;
 
 var path = require('path');
 app.use('/images', express.static(path.join(__dirname, 'public/images')));
@@ -34,6 +33,13 @@ app.get('contact', (req, res) => {
 app.use((req, res) => {
 	res.status(404);
 	res.render('404');
+});
+
+app.use((err, req, res, next) => {
+	console.error(err.stack);
+	res.type('plain/text');
+	res.status(500);
+	res.render('500');
 });
 
 app.listen(app.get('port'), function() {
