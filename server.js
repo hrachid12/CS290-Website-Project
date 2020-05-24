@@ -7,7 +7,7 @@ app.set('view engine', 'handlebars');
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-app.set('port', 4825);
+var port = process.env.PORT || 4825;
 
 var path = require('path');
 app.use('/images', express.static(path.join(__dirname, 'public/images')));
@@ -36,5 +36,5 @@ app.use((req, res) => {
 });
 
 app.listen(app.get('port'), function() {
-	console.log('Connection established. Ctrl-C to terminate...');
+	console.log('Connection established to port ' + port + '. Ctrl-C to terminate...');
 });
