@@ -3,18 +3,12 @@
 #about-body {
 	border: 10px solid #333333;
 	background-color: white;
-	height: 2000px;
+	height: fit-content;
 	border-top: 0;
 	text-align: center;
 	font-family: 'Bitter', serif;
 	font-size: 23px;
 }
-
-/* #about-content {
-	border: 20px solid rgb(255, 145, 0);
-	margin-top: 20px;
-	padding: 20px;
-} */
 
 .bone-header {
 	width: 30%;
@@ -43,6 +37,7 @@
 	float: left;
 	padding: 20px;
 	line-height: 2em;
+	padding-bottom: 67.3px;
 }
 
 #body2 {
@@ -56,4 +51,22 @@
 .about-imgs {
 	width: 450px;
 	border-radius: 50%;
+}
+
+#loveCarrots {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+hr {
+	width: 0%;
+}
+
+#dlimg {
+	position: relative;
+	width: 50px;
+	padding-bottom: 0px;
+	border-radius: 50%;
+	left: 10px;
+	top: 10px;
 }
