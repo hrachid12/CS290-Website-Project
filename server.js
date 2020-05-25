@@ -26,11 +26,11 @@ app.get('/blog', (req, res) => {
 	res.render('blog');
 });
 
-app.get('/contact', (req, res) => {
+app.get('/updates', (req, res) => {
 	res.render('form');
 });
 
-app.post('/contact/signup', (req, res) => {
+app.post('/updates/signup', (req, res) => {
 	let postRes = [];
 
 	for (var i in req.body) {
