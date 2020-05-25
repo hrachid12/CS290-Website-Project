@@ -13,7 +13,7 @@ body {
 	box-sizing: border-box;
 }
 
-ul {
+.nav {
 	list-style-type: none;
 	width: 100%;
 	min-width: 900px;
@@ -23,13 +23,13 @@ ul {
 	background-color: black;
 }
 
-li {
+.navLI {
 	float: left;
 	margin: auto;
 	font-family: 'Bitter', serif;
 }
 
-li a {
+.navLI a {
 	display: block;
 	padding: 14px 16px;
 	color: white;
@@ -37,7 +37,7 @@ li a {
 	text-decoration: none;
 }
 
-li a:hover {
+.navLI a:hover {
 	background-color: #333333;
 	color: rgb(255, 145, 0);
 }
@@ -66,7 +66,7 @@ li a:hover {
 }
 
 .logo {
-	font-size: 60px;
+	font-size: 59px;
 	padding-top: 20px;
 	font-family: 'Bitter', serif;
 }
@@ -74,7 +74,7 @@ li a:hover {
 .logo:hover {
 	color: rgb(255, 145, 0);
 	font-family: 'Dancing Script', cursive;
-	font-size: 77px;
+	font-size: 75px;
 }
 
 #carrot {

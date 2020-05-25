@@ -12,14 +12,14 @@ carousel.style.transform = 'translateX(' + -SIZE * counter + 'px)';
 // Button listeners
 nextButton.addEventListener('click', () => {
 	if (counter >= carouselImages.length - 1) return;
-	carousel.style.transition = 'transform 0.7s ease-in-out';
+	carousel.style.transition = 'transform 0.6s ease-in-out';
 	counter++;
 	carousel.style.transform = 'translateX(' + -SIZE * counter + 'px)';
 });
 
 prevButton.addEventListener('click', () => {
 	if (counter <= 0) return;
-	carousel.style.transition = 'transform 0.7s ease-in-out';
+	carousel.style.transition = 'transform 0.6s ease-in-out';
 	counter--;
 	carousel.style.transform = 'translateX(' + -SIZE * counter + 'px)';
 });
@@ -42,7 +42,7 @@ setInterval(() => {
 	let autoScrollCounter = counter;
 	if (autoScrollCounter >= carouselImages.length - 1) return;
 	else {
-		carousel.style.transition = 'transform 0.7s ease-in-out';
+		carousel.style.transition = 'transform 0.6s ease-in-out';
 		counter++;
 		carousel.style.transform = 'translateX(' + -SIZE * counter + 'px)';
 	}

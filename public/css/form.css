@@ -42,7 +42,7 @@ fieldset {
 
 #scrollbox {
 	overflow: scroll;
-	width: 250px;
+	width: 350px;
 	height: 100px;
 	margin: auto;
 	font-family: 'Bitter', serif;
@@ -50,4 +50,8 @@ fieldset {
 
 .hidden {
 	display: none;
+}
+
+.scrollLI {
+	margin-left: 60px;
 }
